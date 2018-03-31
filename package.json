@@ -1,0 +1,19 @@
+{
+  "name": "sheetsdacoder-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MightyRens/sheetsdacoder-blog.git"
+  },
+  "author": "Rens Lakens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MightyRens/sheetsdacoder-blog/issues"
+  },
+  "homepage": "https://github.com/MightyRens/sheetsdacoder-blog#readme"
+}
