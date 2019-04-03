@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/wp1888099.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Input {
+    margin-top: 10rem;
+    margin-bottom: 0px;
+}
+
+#clear-list {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    background-color: rgba(3, 3, 3, 0.5);
+    min-height: 100vh;
+    min-width: 100vw;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    color: white;
+}
+
+.feedback {
+    display: none;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ICONS */
+.item-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.delete-item {
+    color: #d62828;
+}
+
+.delete-item:hover {
+    color: #d62828;
+}
+
+.visibility {
+    opacity: 0.5;
+}
+
+.showItem {
+    display: block;
+}

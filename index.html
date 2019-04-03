@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <meta name="description" content="Dé website voor docenten die makkelijk en snel een klaslokaal schema maakt">
     <meta name="author" content="Rens Lakens">
     <title>Klaslokaalmaker</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <h1>Klaslokaalmaker</h1>
-      </div>
-    </header>
-
-    
-
-    <footer>
-      <p></p>
-    </footer>
-  </body>
+</head>
+<body>
+    <div class="hero">
+            <div class="alert text-capitalize feedback">
+                    Write value for name
+                </div>
+        <div class="container">
+            <div id="Input">
+                <h1 class="text-center display-2">Todo List</h1>
+                <p class="lead text-center">Welcome to my TodoList application</p>
+                <div class="row">
+                    <form id="itemForm" class="col-8 mx-auto">
+                        <div class="input-group">
+                            <input type="text" id="itemInput" class="form-control" placeholder="Enter a name">
+                            <span><button id="btn" type="submit" class="btn btn-primary">Add Name</button></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="item-container">
+                <div class="item-list my-5">
+                    <!-- item input -->
+                </div>
+                <button type="button" class="btn btn-warning my-3 text-capitalize mx-auto" id="clear-list">Clear</button>
+            </div>         
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
 </html>
