@@ -1,3 +1,9 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
 body {
     background-image: url("https://wallpapercave.com/wp/wp1888099.jpg");
     min-height: 100vh;
@@ -6,30 +12,18 @@ body {
     background-repeat: no-repeat;
 }
 
-/*---------footer---------*/
-footer {
+#content {
+    padding-bottom: 60px;
+}
+
+#footer {
+    background-color: #222222;
     width: 100%;
-    background-color: #222;
-    padding: 60px 0px;
-}
-
-footer nav {
-    float: left;
-}
-
-footer nav ul {
-}
-
-footer nav ul li {
-    display: inline-block;
-    margin-left: 20px;
-    list-style: none;
-}
-
-footer nav ul li a {
-    font-weight: 400;
-    font-size: 10px;
+    height: 60px;
     color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
 #Input {
