@@ -1,2 +1,2 @@
 # klaslokaalmaker
-Website voor docenten die een klaslokaal schema maakt
+Website voor docenten die een klaslokaal schema maakt.
