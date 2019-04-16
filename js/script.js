@@ -27,7 +27,7 @@ itemForm.addEventListener("submit", function(event) {
 	const textValue = itemInput.value;
 
 	if(textValue === "") {
-		showFeedback("Please enter a valid value", "Danger");
+		showFeedback("Vul een naam in", "Gevaar");
 	} else {
 		//Add item
 		addItem(textValue);
@@ -80,7 +80,7 @@ function handleItem(textValue) {
 				itemData = itemData.filter(function(item) {
 					return item !== textValue;
 				});
-				showFeedback("Item deleted", "Succes!");
+				showFeedback("Item verwijderd", "Succes!");
 			});
 		}
 	});

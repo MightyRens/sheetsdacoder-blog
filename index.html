@@ -21,27 +21,38 @@
                 <h1 class="text-center display-2">Klaslokaalmaker</h1>
                 <p class="lead text-center">Dé website voor docenten die makkelijk en snel een klaslokaal schema maakt</p>
                 <div class="row">
-                    <form id="itemForm" class="col-8 mx-auto">
-                        <div class="input-group">
-                            <input type="text" id="itemInput" class="form-control" placeholder="Enter a name">
-                            <span><button id="btn" type="submit" class="btn btn-primary">Add Name</button></span>
+
+                    <form>
+                        
+                        <div class="form-control-sm col-mx-8">
+                            <label for="exampleFormControlSelect1">Example select</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
                         </div>
                     </form>
+
+                    <form id="itemForm" class="col-8 mx-auto">                    
+                        <div class="input-group">
+                            <input type="text" id="itemInput" class="form-control" placeholder="Vul hier naam in...">
+                            <span><button id="btn" type="submit" class="btn btn-primary">Voeg toe</button></span>
+                        </div>
+                    </form>
+
                 </div>
             </div>
             <div class="item-container">
                 <div class="item-list my-5">
                     <!-- javascript does it's work here -->
                 </div>
-                <button type="button" class="btn btn-warning my-3 text-capitalize mx-auto" id="clear-list">Clear</button>
+                <button type="button" class="btn btn-warning my-3 text-capitalize mx-auto" id="clear-list">Maak leeg</button>
             </div>         
         </div>
-        <div id="footer">
-            <p>footer</p>
-        </div>
-    </div>
-
-    
+    </div>   
 
     <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
